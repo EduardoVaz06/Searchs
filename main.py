@@ -6,6 +6,8 @@ from linear_ord import busca_linear_ord
 
 if __name__ == '__main__':
 
+    print("Ao executar, sera requisitado um valor para ser pesquisado para cada um dos casos.")
+
     busca_linear.busca_linear1(int(input("Vetor 50 - Digite um valor inteiro: ")))
     busca_linear.busca_linear2(int(input("Vetor 5.000 - Digite um valor inteiro: ")))
     busca_linear.busca_linear3(int(input("Vetor 500.000 - Digite um valor inteiro: ")))
